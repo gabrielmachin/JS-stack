@@ -3,16 +3,30 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module", 
+  "type": "module",
   "scripts": {
-    "start": "node src",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node --experimental-specifier-resolution=node src",
+    "test": "eslint src"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.17.10",
     "@babel/core": "^7.18.2",
-    "@babel/preset-env": "^7.18.2"
-  }
+    "@babel/eslint-plugin": "^7.17.7",
+    "@babel/preset-env": "^7.18.2",
+    "@babel/preset-flow": "^7.17.12",
+    "eslint": "^8.16.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-compat": "^4.0.2",
+    "eslint-plugin-flowtype": "^8.0.3",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.30.0",
+    "eslint-plugin-react-hooks": "^4.5.0",
+    "flow-bin": "^0.179.0"
+  },
+  "browserslist": [
+    "> 1%"
+  ]
 }
