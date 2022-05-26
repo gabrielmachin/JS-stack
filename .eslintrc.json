@@ -3,6 +3,7 @@
     "airbnb",
     "plugin:flowtype/recommended"
   ],
+  "parser": "@babel/eslint-parser",
   "plugins": [
     "flowtype",
     "compat"
