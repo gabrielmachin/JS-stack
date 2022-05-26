@@ -1,4 +1,4 @@
-import Dog from './dog'
+import Dog from './dog.js'
 
 const toby = new Dog('Toby')
 
