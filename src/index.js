@@ -3,6 +3,6 @@
 
 import Dog from './dog'
 
-const toby = new Dog('Toby')
+const toby = new Dog('Tobys')
 
 console.log(toby.bark())
